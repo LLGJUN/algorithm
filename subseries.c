@@ -44,5 +44,10 @@ void main()
       else
 	aimarray[i][j]=(aimarray[i-1][j]>aimarray[i][j-1]?aimarray[i-1][j]:aimarray[i][j-1]);
     }
-  printf("\nthe length is %d",aimarray[N][N]);
+  for(i=0;i<=N;i++)
+    {
+      for(j=0;j<=N;j++)
+	printf("%d  ",aimarray[i][j]);
+      printf("\n");
+    }
 }
