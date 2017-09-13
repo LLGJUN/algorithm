@@ -1,3 +1,6 @@
+//*****************************************//
+/*delete the element in a array */
+//*****************************************//
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
